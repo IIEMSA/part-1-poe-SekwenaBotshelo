@@ -3,7 +3,7 @@ ChatGPT Referances:
 OpenAI, 2025. ChatGPT [online] Available at: https://chat.openai.com [Accessed 7 Apr. 2025].
 (OpenAI, 2025)
 Add the About Text to the View:
-@{
+"@{
     ViewData["Title"] = "About";
 }
 
@@ -18,12 +18,12 @@ Add the About Text to the View:
     <p>
         Built on modern web technologies and hosted in the cloud, EventEase is scalable, secure, and ready to grow with your needs. We're committed to making event planning effortless, efficient, and enjoyable.
     </p>
-</div>
+</div>"
 
 Minimal Index.cshtml (Home Page):
 OpenAI, 2025. ChatGPT [online] Available at: https://chat.openai.com [Accessed 7 Apr. 2025].
 (OpenAI, 2025)
-@{
+"@{
     ViewBag.Title = "Welcome to EventEase";
 }
 
@@ -31,15 +31,15 @@ OpenAI, 2025. ChatGPT [online] Available at: https://chat.openai.com [Accessed 7
     <h1 class="display-4">Welcome to EventEase</h1>
     <p class="lead">Your go-to platform for efficient venue and event bookings.</p>
     <p>Manage venues, organize events, and handle bookings—all in one place.</p>
-</div>
+</div>"
 
 Updating the navigation menu:
 OpenAI, 2025. ChatGPT [online] Available at: https://chat.openai.com [Accessed 7 Apr. 2025].
 (OpenAI, 2025)
-<ul class="navbar-nav flex-grow-1">
+"<ul class="navbar-nav flex-grow-1">
     <li class="nav-item">@Html.ActionLink("Home", "Index", "Home", new { area = "" }, new { @class = "nav-link" })</li>
     <li class="nav-item">@Html.ActionLink("Manage Venues", "Index", "Venues", new { area = "" }, new { @class = "nav-link" })</li>
     <li class="nav-item">@Html.ActionLink("Manage Events", "Index", "Events", new { area = "" }, new { @class = "nav-link" })</li>
     <li class="nav-item">@Html.ActionLink("Manage Bookings", "Index", "Bookings", new { area = "" }, new { @class = "nav-link" })</li>
-</ul>
+</ul>"
 
